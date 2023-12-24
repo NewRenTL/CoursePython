@@ -6,3 +6,5 @@ print(type("Hola"))
 print(type(3 + 1j))
 print(type(True))
 print(type(print("My text string")))
+
+print(float(2))
