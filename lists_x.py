@@ -34,3 +34,55 @@ print(address)
 print(age)
 
 
+# list concantenation
+print(my_list + my_other_list)
+
+mylist3  = list("Hello World")
+print(mylist3)
+
+# Adding elements
+print("\n")
+print(my_other_list)
+my_other_list.append("Sierpe")
+print(my_other_list)
+my_other_list.insert(1,"Red")
+print(my_other_list)
+
+# Delete an item from in the list
+my_other_list.remove("Red")
+print(my_other_list)
+
+print("\n")
+
+# Now I'll use "pop"
+
+print(str(my_list))
+print(my_list.pop())
+print(str(my_list))
+
+my_First_Pop_Element = my_list.pop(2)
+
+print(my_First_Pop_Element)
+print(str(my_list))
+
+del my_list[2]
+
+print(str(my_list))
+
+#Copy is used to copy the list
+print("\n")
+my_new_list = my_list.copy();
+print(my_new_list)
+my_new_list.reverse()
+
+print(my_new_list)
+#Sorting
+my_new_list.sort();
+print(my_new_list)
+
+# Clear is used to delete all items in the list
+print("\n" + "TestList:")
+my_list.clear();
+print(my_list)
+print(type(my_list))
+
