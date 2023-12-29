@@ -6,13 +6,13 @@ my_other_dict = {};
 print(type(my_dict))
 print(type(my_other_dict))
 
-my_other_dict = {"Nombre":"Diego","Apellido":"Bustamante","Edad":20,1:"Python"}
+my_other_dict = {"Name":"Diego","Surname":"Bustamante","Age":20,1:"Python"}
 
 my_dict = {
     "Name":"Diego",
     "Lastname":"Bustamante",
     "Age":35,
-    "Languages":{"Python","Switf","Kotlin"},
+    "Languages":{"Python","Swift","Kotlin"},
     1:1.77
     }
 
